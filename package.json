@@ -1,0 +1,27 @@
+{
+  "name": "@biggerstar/deepmerge",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "深度合并",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "typings": "./index.d.ts",
+  "scripts": {
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "type": "./index.d.ts"
+    }
+  },
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/biggerstar/deepmerge"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
